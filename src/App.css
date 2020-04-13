@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+
+.container {
+    width: 90%;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+main {
+    padding: 40px 0;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.ant-form-item-has-error .ant-input, 
+.ant-form-item-has-error .ant-input-affix-wrapper, 
+.ant-form-item-has-error .ant-input:hover, 
+.ant-form-item-has-error .ant-input-affix-wrapper:hover,
+.ant-form-item-has-error .ant-input:focus, 
+.ant-form-item-has-error .ant-input-affix-wrapper:focus, 
+.ant-form-item-has-error .ant-input-focused, 
+.ant-form-item-has-error .ant-input-affix-wrapper-focused,
+.ant-form-item-has-error .ant-input:not([disabled]):hover, 
+.ant-form-item-has-error .ant-input-affix-wrapper:not([disabled]):hover {
+    border-color: #9245d6;
+}
+
+.ant-form-item-has-error .ant-form-item-explain, 
+.ant-form-item-has-error .ant-form-item-split {
+    color: #9245d6;
+}
